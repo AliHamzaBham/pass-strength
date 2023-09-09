@@ -1,0 +1,22 @@
+* {
+    font-family: sans-serif;
+}
+
+.form-container {
+    width: 500px;
+    height: 500px;
+    border: 1px solid;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+.form-parent form input, .form-parent form button{
+    margin-top: 40px;
+}
+
+.form-parent form button {
+    width: 120px;
+}
